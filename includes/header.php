@@ -25,6 +25,7 @@ $flash = getFlash();
 <title><?= $pageTitle ?? 'SARPAMS' ?> | Stray Animals Rescue & Adoption</title>
 <link rel="stylesheet" href="/sarpams/assets/css/style.css">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>document.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
 </head>
 <body>
 
