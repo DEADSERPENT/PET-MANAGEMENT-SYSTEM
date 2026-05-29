@@ -85,4 +85,3 @@ $statuses = ['Open', 'Assigned', 'Closed'];
 </table>
 <?php endif; ?>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>

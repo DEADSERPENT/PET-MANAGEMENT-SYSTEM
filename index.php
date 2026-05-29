@@ -92,11 +92,6 @@ require_once __DIR__ . '/includes/header.php';
         </tbody>
       </table>
     </div>
-    <div class="card-footer-link">
-      <a href="/sarpams/animals/index.php" class="btn btn-sm btn-outline">
-        <i data-lucide="arrow-right"></i> View All Animals
-      </a>
-    </div>
   </div>
 
   <!-- Recent Rescue Requests -->
@@ -120,11 +115,6 @@ require_once __DIR__ . '/includes/header.php';
           <?php endforeach; ?>
         </tbody>
       </table>
-    </div>
-    <div class="card-footer-link">
-      <a href="/sarpams/rescue_requests/index.php" class="btn btn-sm btn-outline">
-        <i data-lucide="arrow-right"></i> View All Rescues
-      </a>
     </div>
   </div>
 
@@ -152,4 +142,3 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 </div>
 
-<?php require_once __DIR__ . '/includes/footer.php'; ?>

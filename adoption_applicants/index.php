@@ -50,4 +50,3 @@ $applicants = fetchAll("SELECT * FROM ADOPTION_APPLICANT ORDER BY applicant_id D
 </table>
 <?php endif; ?>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>

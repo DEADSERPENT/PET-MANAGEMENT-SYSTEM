@@ -75,4 +75,3 @@ $shelters = fetchAll("SELECT shelter_id, shelter_name FROM SHELTER ORDER BY shel
 </table>
 <?php endif; ?>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>

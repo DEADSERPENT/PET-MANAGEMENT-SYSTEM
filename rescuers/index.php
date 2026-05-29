@@ -52,4 +52,3 @@ $rescuers = fetchAll("SELECT * FROM RESCUER ORDER BY rescuer_id DESC");
 </table>
 <?php endif; ?>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>

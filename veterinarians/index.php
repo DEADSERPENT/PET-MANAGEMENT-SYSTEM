@@ -44,4 +44,3 @@ $vets = fetchAll("SELECT * FROM VETERINARIAN ORDER BY vet_id DESC");
 </table>
 <?php endif; ?>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>
